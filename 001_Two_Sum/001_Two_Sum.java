@@ -1,8 +1,7 @@
 public class Solution {
-    public int[] twoSum(int[] nums, int target) {
+    public int[] twoSu(int[] nums, int target) {
         int[] numbers = nums.clone();
-        Arrays.sort(numbers);
-        
+        Arrays.sort(numbers);       
         int length = numbers.length;
         int left = 0;
         int right = length - 1;
